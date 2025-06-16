@@ -1,23 +1,23 @@
 {
 	"compilerOptions": {
-		// required
-		"allowSyntheticDefaultImports": true,
-		"downlevelIteration": true,
+		// Required
 		"jsx": "react",
 		"jsxFactory": "React.createElement",
 		"jsxFragmentFactory": "React.Fragment",
-		"module": "commonjs",
-		"moduleResolution": "Node",
+		"downlevelIteration": true,
+		"allowSyntheticDefaultImports": true,
 		"noLib": true,
 		"resolveJsonModule": true,
 		"experimentalDecorators": true,
 		"forceConsistentCasingInFileNames": true,
 		"moduleDetection": "force",
+		"module": "commonjs",
+		"moduleResolution": "Node",
 		"strict": true,
 		"target": "ESNext",
 		"typeRoots": ["node_modules/@rbxts", "node_modules/@bloxstack", "node_modules/@flamework"],
 		"plugins": [{ "transform": "rbxts-transformer-flamework" }],
-		// configurable
+		// Configurable
 		"rootDir": "src",
 		"outDir": "out",
 		"baseUrl": "src",

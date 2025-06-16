@@ -1,5 +1,5 @@
 {
-	"name": "roblox-ts-game",
+	"name": "bloxstack-project",
 	"globIgnorePaths": ["**/package.json", "**/tsconfig.json"],
 	"tree": {
 		"$className": "DataModel",
