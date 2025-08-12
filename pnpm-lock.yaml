@@ -47,6 +47,9 @@ importers:
       '@rbxts/ripple':
         specifier: ^0.9.3
         version: 0.9.3
+      '@rbxts/services':
+        specifier: latest
+        version: 1.5.5
       rbxts-transformer-flamework:
         specifier: ^1.3.1
         version: 1.3.1(typescript@5.8.3)
