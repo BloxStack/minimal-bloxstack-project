@@ -15,7 +15,7 @@
 		"moduleResolution": "Node",
 		"strict": true,
 		"target": "ESNext",
-		"typeRoots": ["node_modules/@rbxts", "node_modules/@bloxstack", "node_modules/@flamework", "src/types"],
+		"typeRoots": ["node_modules/@rbxts", "node_modules/@flamework"],
 		"plugins": [{ "transform": "rbxts-transformer-flamework" }],
 		// Configurable
 		"rootDir": "src",
