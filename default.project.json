@@ -18,9 +18,6 @@
 					"@rbxts": {
 						"$path": "node_modules/@rbxts"
 					},
-					"@bloxstack": {
-						"$path": "node_modules/@bloxstack"
-					},
 					"@flamework": {
 						"$path": "node_modules/@flamework"
 					}
