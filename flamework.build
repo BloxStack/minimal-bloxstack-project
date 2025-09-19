@@ -1,0 +1,8 @@
+{
+	"version": 1,
+	"flameworkVersion": "1.3.2",
+	"identifiers": {
+		"bloxstack-project:out/server/services/soundEffects@SoundEffects": "server/services/soundEffects@SoundEffects"
+	},
+	"metadata": {}
+}

@@ -20,6 +20,9 @@
 					},
 					"@flamework": {
 						"$path": "node_modules/@flamework"
+					},
+					"@bloxstack": {
+						"$path": "node_modules/@bloxstack"
 					}
 				}
 			},
