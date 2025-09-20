@@ -1,4 +1,4 @@
-import { audioAdapter, createBloxStack } from "@bloxstack/sdk";
+import { audioAdapter, createBloxStack, flameworkAdapter } from "@bloxstack/sdk";
 
 /** In shared */
 const soundEffects = {
@@ -10,6 +10,10 @@ export const SharedBloxstack = createBloxStack({
 	adapters: [
 		audioAdapter({
 			SoundEffects: soundEffects,
+		}),
+		flameworkAdapter({
+			ClientPaths: ["src/client/controllers"],
+			ServerPaths: ["src/server/services"],
 		}),
 	] as const,
 });

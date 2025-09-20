@@ -5,7 +5,7 @@ import { ServerBloxstack } from "server/bloxstack";
 @Service()
 export class SoundEffects implements OnStart {
 	private onPlayer(player: Player) {
-		ServerBloxstack.Audio.play(player, "OOF");
+		ServerBloxstack.audio.play(player, "OOF");
 	}
 
 	onStart() {
