@@ -2,6 +2,7 @@
 	"version": 1,
 	"flameworkVersion": "1.3.2",
 	"identifiers": {
+		"bloxstack-project:out/client/controllers/StatsController@StatsController": "client/controllers/StatsController@StatsController",
 		"bloxstack-project:out/server/services/soundEffects@SoundEffects": "server/services/soundEffects@SoundEffects"
 	},
 	"metadata": {}
