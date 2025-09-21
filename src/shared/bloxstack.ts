@@ -12,8 +12,8 @@ export const SharedBloxstack = createBloxStack({
 			SoundEffects: soundEffects,
 		}),
 		flameworkAdapter({
-			ClientPaths: ["src/client/controllers"],
-			ServerPaths: ["src/server/services"],
+			ClientPath: "src/client/controllers",
+			ServerPath: "src/server/services",
 		}),
 	] as const,
 });

@@ -1,4 +1,4 @@
-import { startBloxStackClient } from "@bloxstack/sdk";
+import { bloxStackClient } from "@bloxstack/sdk";
 import { SharedBloxstack } from "shared/bloxstack";
 
-export const ClientBloxstack = startBloxStackClient(SharedBloxstack, {});
+export const ClientBloxstack = bloxStackClient(SharedBloxstack, {});
